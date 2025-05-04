@@ -17,7 +17,7 @@ Each project includes real-world use cases, clean code, visual examples, and bus
 
 ---
 
-**🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/markciganovic)**  
+**🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/mark-ciganovic)**  
 **Role:** AI-Augmented Data Analyst · **Senior-Level Contributor** · Building Insight Automation with GPT, R, and SQL
 
 
