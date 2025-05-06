@@ -1,24 +1,25 @@
-# 📊 Interactive KPI Dashboard (Shiny)
+# 📊 AI-Augmented System Performance Dashboard (Shiny)
 
-This project demonstrates an interactive, real-time dashboard built in R using `shinydashboard`. It is designed to monitor and visualize key performance indicators (KPIs) with dynamic filters, time-series graphs, and tabular views.
+This project demonstrates a clean, interactive KPI dashboard built in R using **Shiny**, **tidyverse**, and **ggplot2**. It enables users to monitor and analyze system performance across regions using dynamic filters, time-series graphs, and real-time summary metrics.
 
-## 🔧 Features
+## 🚀 Features
 
-- Dynamic sidebar filters (e.g., date, region, category)
-- Interactive visualizations (`plotly`, `ggplot2`)
-- Real-time data table (`DT::datatable`)
-- CSV download functionality
-- Clean, business-ready interface
+- 🔍 Dynamic sidebar filters for Region and Date Range
+- 📈 Time-series visualizations of:
+  - Defect Rate
+  - Reliability Score
+  - Downtime (minutes)
+- 🧮 KPI summary table (average metrics)
+- 📋 Interactive data table with sorting/searching (via `DT`)
+- 📸 Responsive UI design suitable for GitHub and business demonstration
+- 🗃️ Clean folder structure and reusable code base
 
-## 📈 Use Case
+## 🛠️ Technologies Used
 
-Ideal for operations managers or business leaders who need a live window into key metrics—without waiting on static reports.
+- `shiny`
+- `tidyverse` (for data wrangling and visualization)
+- `DT` (interactive tables)
+- `ggplot2` (data visualization)
 
-## 📎 Example
-
-![Dashboard Screenshot](screenshots/dashboard-sample.png)
-
----
-
-**Tech Stack:** R, Shiny, shinydashboard, plotly, DT  
+## 📂 Folder Structure
 
