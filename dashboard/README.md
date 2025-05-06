@@ -22,4 +22,4 @@ This project demonstrates a clean, interactive KPI dashboard built in R using **
 - `ggplot2` (data visualization)
 
 ## 📂 Folder Structure
-
+<pre> ## 📂 Folder Structure ``` dashboard/ ├── app.R # Main Shiny application ├── sample_data.csv # Sample KPI dataset (288 rows) ├── screenshots/ # Dashboard screenshots └── README.md # This documentation file ``` </pre>
