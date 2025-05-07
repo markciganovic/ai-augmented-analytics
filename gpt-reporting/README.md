@@ -1,24 +1,36 @@
-# 🤖 GPT-4 Insight Reporting System
+# 📊 AI-Augmented Marketing Report Generator (R + OpenAI API)
 
-This project showcases a fully automated reporting pipeline that uses OpenAI's GPT-4 to generate weekly insight summaries from structured data. The results are delivered via email and Excel, automating what used to take hours of manual effort.
-
-## 🔧 Features
-
-- Auto-generates business summaries from tabular data
-- Uses OpenAI GPT-4 API via `httr` or `openai` wrapper
-- Formats results with `blastula` (for email) and `openxlsx` (for Excel)
-- Outputs include Markdown, HTML, and XLSX
-
-## 📈 Use Case
-
-Perfect for executives or managers who want to receive automatic reports with GPT-generated insight instead of raw tables or dashboards.
-
-## 📎 Example
-
-Example Output:  
-- 📧 [Weekly Email Summary](example_output/email_sample.html)  
-- 📊 [Excel File](example_output/report_sample.xlsx)
+This project showcases how to generate an intelligent, structured Excel report using R and the OpenAI API. It connects a sample marketing dataset to GPT-4 through programmatic prompts, producing a data-driven narrative report that summarizes insights and trends for business stakeholders.
 
 ---
 
-**Tech Stack:** R, GPT-4 API, blastula, openxlsx  
+## 🚀 Features
+
+- 🔄 Automatically loads and analyzes `marketing_sample_data.csv`
+- 🧠 Sends layered prompts to GPT-4 to:
+  - Identify high-level insights
+  - Drill into patterns by region, product, and metrics
+  - Suggest recommendations and business actions
+- 📈 Exports results to a professional Excel file (`gpt_marketing_report.xlsx`)
+- 🔐 Uses environment variables to protect your OpenAI API key
+- 📦 Easily adaptable to other datasets and reporting needs
+
+---
+
+## 🛠️ Technologies Used
+
+- `R` (scripting language)
+- `openai` (for GPT API connection)
+- `readr` & `dplyr` (for data wrangling)
+- `writexl` (to generate Excel output)
+
+---
+
+## 📁 Folder Structure
+
+<pre><code>
+  ## 📁 Folder Structure ``` report_generator/ 
+  ├── generate_report.R # Main R script to generate the marketing report 
+  ├── marketing_sample_data.csv # Sample marketing dataset 
+  ├── gpt_marketing_report.xlsx # AI-generated report output 
+  └── README.md # This documentation file ``` </code></pre>
