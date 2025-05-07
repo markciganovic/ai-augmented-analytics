@@ -12,6 +12,7 @@ This project demonstrates a machine learning classification pipeline using **R**
   - Handles missing values and normalizes predictors
   - Converts categorical variables into dummy variables
 - 🌲 Trains a **Random Forest** classification model using `rand_forest()` from `parsnip`
+- 📉 Trains a **Logistic Regression** model using `logistic_reg()` from `parsnip`
 - 📊 Evaluates model performance using:
   - Accuracy
   - Precision / Recall / F1 Score
